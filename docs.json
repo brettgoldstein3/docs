@@ -18,18 +18,26 @@
             "pages": [
               "index",
               "quickstart",
-              "development"
+              "migration"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Core Apps",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "core/home",
+              "core/inbox",
+              "core/people-companies",
+              "core/tasks",
+              "core/docs",
+              "core/custom-apps"
+            ]
+          },
+          {
+            "group": "Admin",
+            "pages": [
+              "admin/workspace",
+              "admin/account",
+              "admin/sharing"
             ]
           }
         ]
