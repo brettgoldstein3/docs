@@ -14,30 +14,38 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "index",
-              "quickstart",
-              "migration"
+              "getting-started/introduction",
+              "getting-started/quickstart",
+              "getting-started/importing-migration"
             ]
           },
           {
-            "group": "Core Apps",
+            "group": "Using Micro",
             "pages": [
-              "core/home",
-              "core/inbox",
-              "core/people-companies",
-              "core/tasks",
-              "core/docs",
-              "core/custom-apps"
+              "using-micro/email-inbox",
+              "using-micro/calendar",
+              "using-micro/people-companies",
+              "using-micro/linkedin-twitter-whatsapp",
+              "using-micro/apps-crm",
+              "using-micro/tasks",
+              "using-micro/docs",
+              "using-micro/collaboration-sharing",
+              "using-micro/ai-automations",
+              "using-micro/search",
+              "using-micro/mobile-chrome-apps",
+              "using-micro/keyboard-shortcuts"
             ]
           },
           {
-            "group": "Admin",
+            "group": "Account & Support",
             "pages": [
-              "admin/workspace",
-              "admin/account",
-              "admin/sharing"
+              "account/account-settings",
+              "account/workspace-settings",
+              "account/billing",
+              "account/faq",
+              "account/contact-support"
             ]
           }
         ]
