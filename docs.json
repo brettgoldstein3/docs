@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#4F88DC",
+    "light": "#D4ECFB",
+    "dark": "#4F88DC"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -29,8 +29,9 @@
               "using-micro/people-companies",
               "using-micro/linkedin-twitter-whatsapp",
               "using-micro/apps-crm",
-              "using-micro/tasks",
               "using-micro/docs",
+              "using-micro/objects-properties",
+              "using-micro/micros",
               "using-micro/collaboration-sharing",
               "using-micro/ai-automations",
               "using-micro/search",
@@ -92,8 +93,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/micro-logo-white.svg",
+    "dark": "/logo/micro-logo-black.svg"
   },
   "navbar": {
     "links": [
