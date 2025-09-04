@@ -53,6 +53,13 @@
         ]
       },
       {
+        "anchor": "API Reference",
+        "icon": "code",
+        "pages": [
+          "api-reference/introduction"
+        ]
+      },
+      {
         "anchor": "Changelog",
         "icon": "newspaper",
         "pages": [
