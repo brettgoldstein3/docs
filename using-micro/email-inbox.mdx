@@ -1,7 +1,155 @@
 ---
 title: "Email & Inbox"
+description: "Learn how to connect email accounts, customize your inbox experience, and leverage email data throughout Micro"
 ---
 
-# Email & Inbox
+---
 
-Coming soon...
+<div className="my-8">
+  <img src="/images/email-light.png" alt="Micro Platform Overview" className="rounded-lg shadow-lg dark:hidden" />
+  <img src="/images/email-dark.png" alt="Micro Platform Overview" className="rounded-lg shadow-lg hidden dark:block" />
+</div>  
+
+# Connecting Email Accounts
+
+<Steps>
+<Step title="Access Email Settings">
+  Click on your workspace name in the top left, then select "Connections" → "Gmail & Calendar"
+</Step>
+
+<Step title="Connect Gmail Account">
+  Click "Connect Account". You'll be redirected to Google's authorization page.
+  
+  <Note>
+  If you are using an email alias, you will need to authenticate with the primary address first.
+  </Note>
+</Step>
+
+<Step title="Authorize Access">
+  Grant Micro permission to read and send emails on your behalf and view/update calendar events. Micro only requests the minimum permissions needed.
+</Step>
+
+<Step title="Verify Connection">
+  Once connected, you'll see your email account listed and a loading indicator active.
+</Step>
+</Steps>
+
+## Unified Inbox Experience
+
+When you connect multiple email accounts, Micro creates a unified inbox that combines all your emails in one place. 
+
+
+<Note>
+You can still access individual account inboxes by clicking the account name in the left sidebar.
+</Note>
+
+# Customizing Your Email Experience
+
+## Email Properties
+
+Email properties help you organize and categorize your messages beyond the standard subject and sender fields.
+
+Default properties include Labels, To, From, Followup, and more - you can edit these or add your own.
+
+Learn more about properties [here](/using-micro/objects-properties)
+
+### AI Autofill / Magic Properties
+
+Most properties on emails can be automatically updated by AI. You can use this to automatically label emails or extract other data.
+
+To activate this, just turn on AI Autofill on the property.
+
+You can learn more [here](/using-micro/ai-automations)
+
+## Creating Custom Email Views
+
+Custom views let you create filtered inboxes for different workflows. 
+
+Some examples of views you can create:
+- **Investor Emails** - Filter by investor domains or specific VCs
+- **Customer Support** - Emails from customers needing help
+- **Team Communications** - Internal team discussions and updates
+- **Follow-up Required** - Emails that need responses or next steps
+- **Fundraising Updates** - Updates from investors, accelerators, or advisors
+- **Sales Inquiries** - Potential customer or partnership requests
+- **Urgent Messages** - High-priority emails requiring immediate attention
+
+To create a new view, simply click the plus on the views tab.
+
+
+# How Email Powers Micro
+
+## Email in Apps
+
+You can view a filtered inbox of all emails from people tied to records in any app. 
+
+Learn more [here](/using-micro/apps-crm)
+
+
+## Email on Profiles
+
+You can also see all emails tied to a specific person or company on their respective profiles. 
+
+Learn more [here](/using-micro/people-companies)
+
+## Contact Enrichment
+
+Every time you receive an email (or calendar event) from an email address you haven't interacted with before, a new person (and company if relevant) record is created and enriched with dozens of datapoints.
+
+New email and calendar activity is used to update properties on these contacts like Relationship Strength.
+
+
+## AI Autofill
+Emails can be used to autofill properties of other objects. This is especially useful for automating pripelines and other workflows when relevant communication occurs.
+
+### AI Chat
+You can ask the Micro AI chat assistant questions about recent emails and have it generate a summary of the most important emails for you to respond to.
+
+You can learn more about both of these AI features [here](/using-micro/ai-automations)
+
+## Cross-Platform Integration
+
+Email data appears throughout Micro:
+
+
+
+# Email Sidebar
+
+In the sidebar on every email, you can see a set of Micros:
+- **Thread Summary** - Click to summarize the entire thread.
+- **Info** - Basic properties tied to the email thread.
+- **In This Thread** - Profile cards for everyone in the thread.
+- **Task** - Tasks you've created or generated that are tied to the thread
+
+## Email Intelligence
+
+
+# Standard Email Features
+
+Micro comes equipped with all the features you'd expect from your favorite email client. It's designed to work like Gmail, Outlook, or any other email client you're familiar with.
+
+- **Compose & Send** - Write new emails, reply, forward, and send
+- **Drafts** - Save drafts and continue writing later
+- **Search** - Find emails by sender, subject, content, or date
+- **Filters & Labels** - Organize emails with custom filters and labels
+- **Keyboard Shortcuts** - Use familiar shortcuts like `r` to reply, `f` to forward
+- **Attachments** - Send and receive files, images, and documents
+- **Mark Done & Delete** - Keep your inbox clean with standard email actions
+
+Learn more about keyboard shortcuts [here](/using-micro/keyboard-shortcuts)
+
+<Note>
+Email data is private by default. You control what's shared with team members through Micro's permission system. Learn more [here](/using-micro/collaboration-sharing)
+</Note>
+
+
+
+<Card title="Email Best Practices" icon="lightbulb">
+  - Use properties to extract important metadata to email
+  - Create custom views for different workflows
+  - Turn on AI autofill to automatically update records across Micro
+</Card>
+
+---
+
+Micro is designed to make your email work smarter, not harder. By connecting your accounts and leveraging the platform's AI capabilities, you can transform your inbox from a simple communication tool into a powerful data source that enriches your entire workflow.

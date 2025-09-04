@@ -1,0 +1,38 @@
+/* Custom Font Loading for Haffer Font Family */
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/fonts/HafferRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/fonts/HafferMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/fonts/HafferSemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: 'Haffer';
+  src: url('/fonts/HafferBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: optional;
+}
+
+/* Apply Haffer font to all text */
+* {
+  font-family: 'Haffer', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
